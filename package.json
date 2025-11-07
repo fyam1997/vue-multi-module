@@ -1,0 +1,14 @@
+{
+  "name": "vue-multi-module",
+  "version": "0.1.0",
+  "description": "Demo app for vue multiple module in single project",
+  "scripts": {},
+  "keywords": [],
+  "author": "Fyam",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "typescript": "~5.9.0"
+  }
+}
