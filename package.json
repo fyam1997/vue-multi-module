@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Demo app for vue multiple module in single project",
   "scripts": {
-    "dev": "pnpm --filter ./code-utils --filter ./ui-utils --parallel run dev",
-    "build": "pnpm --filter ./code-utils --filter ./ui-utils run build"
+    "dev": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app --parallel run dev",
+    "build": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app run build"
   },
   "keywords": [],
   "author": "Fyam",

@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "dependencies": {
+    "vue": "^3.5.22",
+    "ui-utils": "workspace:*",
+    "code-utils": "workspace:*"
+  },
+  "devDependencies": {
+    "vite-plugin-vue-devtools": "^8.0.3"
+  }
+}
