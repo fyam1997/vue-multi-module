@@ -1,0 +1,21 @@
+{
+  "name": "code-utils",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
+}
