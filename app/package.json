@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "vue": "^3.5.22",
-    "ui-utils": "workspace:*",
-    "code-utils": "workspace:*"
+    "@fyam/ui-utils": "workspace:*",
+    "@fyam/code-utils": "workspace:*"
   },
   "devDependencies": {
     "vite-plugin-vue-devtools": "^8.0.3"

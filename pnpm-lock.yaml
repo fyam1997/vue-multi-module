@@ -35,10 +35,10 @@ importers:
 
   app:
     dependencies:
-      code-utils:
+      '@fyam/code-utils':
         specifier: workspace:*
         version: link:../code-utils
-      ui-utils:
+      '@fyam/ui-utils':
         specifier: workspace:*
         version: link:../ui-utils
       vue:

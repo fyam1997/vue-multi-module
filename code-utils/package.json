@@ -1,12 +1,13 @@
 {
-  "name": "code-utils",
+  "name": "@fyam/code-utils",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "package.json"
   ],
   "engines": {
     "node": "^20.19.0 || >=22.12.0"

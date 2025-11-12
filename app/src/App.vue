@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { HelloWorld, sayHello, TheWelcome } from 'ui-utils'
-import { helloThere } from 'code-utils'
+import { HelloWorld, sayHello, TheWelcome } from '@fyam/ui-utils'
+import { helloThere } from '@fyam/code-utils'
 
 const word = sayHello()
 const word2 = helloThere()
