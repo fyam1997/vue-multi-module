@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "rimraf dist && vite build",
-    "dev": "vite"
+    "dev": "vite build --watch"
   },
   "peerDependencies": {
     "vue": "^3.5.22"
