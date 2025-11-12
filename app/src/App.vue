@@ -4,6 +4,8 @@ import { helloThere } from '@fyam/code-utils'
 
 const word = sayHello()
 const word2 = helloThere()
+const gitCommitHash = __GIT_COMMIT_HASH__
+const appVersion = __APP_VERSION__
 </script>
 
 <template>
@@ -11,6 +13,8 @@ const word2 = helloThere()
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
+      <div>App version: {{ appVersion }}</div>
+      <div>Git commit hash: {{ gitCommitHash }}</div>
       <HelloWorld :msg="word" />
       <HelloWorld :msg="word2" />
     </div>
