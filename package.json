@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app --parallel run dev",
     "build": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app run build",
-    "delpoy-gh-pages": "node deploy.js"
+    "deploy-gh-pages": "node deploy.js"
   },
   "keywords": [],
   "author": "Fyam",
