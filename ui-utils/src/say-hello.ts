@@ -1,3 +1,3 @@
 export function sayHello(): string {
-  return 'hello'
+  return 'hello from ui utils'
 }

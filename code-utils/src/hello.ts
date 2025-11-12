@@ -1,3 +1,3 @@
 export function helloThere() {
-  return "hello2"
+  return "hello from code utils"
 }
