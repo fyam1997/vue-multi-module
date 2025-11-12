@@ -4,7 +4,8 @@
   "description": "Demo app for vue multiple module in single project",
   "scripts": {
     "dev": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app --parallel run dev",
-    "build": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app run build"
+    "build": "pnpm --filter ./code-utils --filter ./ui-utils --filter ./app run build",
+    "delpoy-gh-pages": "node deploy.js"
   },
   "keywords": [],
   "author": "Fyam",
@@ -14,6 +15,8 @@
     "@tsconfig/node22": "^22.0.2",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
+    "gh-pages": "^6.3.0",
+    "git-rev-sync": "^3.0.2",
     "prettier": "3.6.2",
     "rimraf": "^6.1.0",
     "typescript": "~5.9.0",
