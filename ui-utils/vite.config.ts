@@ -9,7 +9,7 @@ export default defineConfig({
     dts({
       outDir: './dist/types',
       // https://stackoverflow.com/a/78825198/10351342
-      tsconfigPath: './tsconfig.app.json',
+      tsconfigPath: '../tsconfig.app.json',
     }),
   ],
   build: {
